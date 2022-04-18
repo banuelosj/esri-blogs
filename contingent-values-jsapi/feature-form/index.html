@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <title>
+      FeatureForm - Contingent Values
+    </title>
+
+    <script type="module" src="https://js.arcgis.com/calcite-components/1.0.0-beta.77/calcite.esm.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://js.arcgis.com/calcite-components/1.0.0-beta.77/calcite.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://js.arcgis.com/4.23/esri/themes/light/main.css"
+    />
+    <script src="https://js.arcgis.com/4.23/"></script>
+
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./main.js"></script>
+  </head>
+
+  <body>
+    <div id="viewDiv"></div>
+    <calcite-panel heading="Edit with Contingent Values" id="panel">
+      <calcite-button text-enabled text="Reset" slot="footer" id="submitBtn" round width="full">Submit</calcite-button>
+      <div id="formDiv"></div>
+    </calcite-panel>
+  </body>
+</html>
